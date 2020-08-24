@@ -2,12 +2,10 @@ body {
 	background: #232323;
 	font-size: 16px;
 }
+
 h1 {
 	color: white;
-}
-
-#messageDisplay {
-	color: white;
+	text-align: center;
 }
 
 .square {
@@ -21,4 +19,15 @@ h1 {
 #container {
 	margin: 0 auto;
 	max-width: 600px;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	background: blue;
 }

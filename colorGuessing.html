@@ -5,8 +5,13 @@
   <link rel="stylesheet" type="text/css" href="colorGuessing.css">
 </head>
 <body>
-	<h1>The Great <span id="grbDisplay">GRB</span> Color Game</h1>
-	<div id="messageDisplay"></div>
+	<h1>The Great <div id="rgbDisplay">GRB</div> Color Game</h1>
+	<div id="stripe">
+		<button id="reset">New Color</button>
+		<span id="messageDisplay"></span>
+		<button id="easy">Easy</button>
+		<button id="hard" class="selected">Hard</button>
+	</div>
 	<div id="container">
 		<div class="square"></div>
 		<div class="square"></div>
