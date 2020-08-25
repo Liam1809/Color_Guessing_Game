@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Color Game</title>
-  <link rel="stylesheet" type="text/css" href="colorGuessing.css">
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGuessing.css">
 </head>
 <body>
-	<h1>The Great <div id="rgbDisplay">GRB</div> Color Game</h1>
+	<h1>
+		The Great 
+		<br>
+		<span id="rgbDisplay">GRB</span>
+		<br>
+		Color Game</h1>
 	<div id="stripe">
-		<button id="reset">New Color</button>
+		<button id="reset">New Colors</button>
 		<span id="messageDisplay"></span>
 		<button id="easy">Easy</button>
 		<button id="hard" class="selected">Hard</button>
 	</div>
 	<div id="container">
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
 	</div>
-  <script type="text/javascript" src="colorGuessing.js"></script>
+	<script type="text/javascript" src="colorGuessing.js"></script>
 </body>
 </html>
